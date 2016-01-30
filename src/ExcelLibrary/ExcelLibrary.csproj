@@ -59,10 +59,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
+    <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CodeLib\Algorithm.cs" />
@@ -71,8 +69,6 @@
     <Compile Include="CodeLib\BinaryTree\RedBlackTree\RedBlackTree.cs" />
     <Compile Include="CodeLib\BinaryTree\RedBlackTree\RedBlackTreeNode.cs" />
     <Compile Include="CodeLib\Encoder\Bin2Hex.cs" />
-    <Compile Include="CodeLib\FileIO.cs" />
-    <Compile Include="CodeLib\FileSelector.cs" />
     <Compile Include="CodeLib\Pair.cs" />
     <Compile Include="CodeLib\StreamHelper.cs" />
     <Compile Include="CodeLib\TextEncoding.cs" />
