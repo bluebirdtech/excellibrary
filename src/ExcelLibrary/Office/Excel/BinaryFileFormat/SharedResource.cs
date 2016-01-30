@@ -12,8 +12,6 @@ namespace ExcelLibrary.BinaryFileFormat
 
         public DateTime BaseDate;
 
-        public ColorPalette ColorPalette = new ColorPalette();
-
         public List<FORMAT> FormatRecords = new List<FORMAT>();
 
         public List<XF> ExtendedFormats = new List<XF>();

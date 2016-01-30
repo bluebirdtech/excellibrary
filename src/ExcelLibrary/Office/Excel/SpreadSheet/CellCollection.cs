@@ -33,7 +33,7 @@ namespace ExcelLibrary.SpreadSheet
         private CellStyle CreateStyleFromXF(XF xf)
         {
             CellStyle style = new CellStyle();
-            style.BackColor = SharedResource.ColorPalette[xf.PatternColorIndex];
+            //style.BackColor = SharedResource.ColorPalette[xf.PatternColorIndex];
             return style;
         }
 

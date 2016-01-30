@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
-using System.Drawing;
 using ExcelLibrary.CompoundDocumentFormat;
 using ExcelLibrary.SpreadSheet;
 
@@ -107,15 +106,6 @@ namespace ExcelLibrary.BinaryFileFormat
                             case 1:
                                 sharedResource.BaseDate = DateTime.Parse("1904-01-01");
                                 break;
-                        }
-                        break;
-                    case RecordType.PALETTE:
-                        PALETTE palette = record as PALETTE;
-                        int colorIndex = 8;
-                        foreach (int color in palette.Colors)
-                        {
-                            sharedResource.ColorPalette[colorIndex] = Color.FromArgb(color);
-                            colorIndex++;
                         }
                         break;
                     case RecordType.FONT:
